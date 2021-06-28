@@ -18,9 +18,6 @@ Unpacking objects: 100% (13/13), done.
 $ cd config-print/
 $ mvn -q package
 $ HADOOP_HOME=/opt/mapr/hadoop/hadoop-2.7.0/ ./target/config-printer | sort
-log4j:WARN No appenders could be found for logger (org.apache.hadoop.util.Shell).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 dfs.ha.fencing.ssh.connect-timeout = 30000
 file.blocksize = 67108864
 file.bytes-per-checksum = 512
